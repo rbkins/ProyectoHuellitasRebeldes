@@ -17,3 +17,7 @@ require_once("view/admin/index.php");
 <h1>Index Principal(siempre se va mostrar)</h1>
 
 </div>
+
+
+
+<div class="container">este es un menu</div>
