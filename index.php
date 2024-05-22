@@ -1,23 +1,7 @@
 
 <?php
-if(!defined('URL')) define('URL', 'http://localhost/HRproject/');
+if(!defined('URL')) define('URL', 'http://localhost/ProyectoHuellitasRebeldes/');
 
-    //models
 require_once("controller/contenido.php");
-
 require_once("view/admin/index.php");
-
-
-
 ?>
-
-
-<div class="CONTAINER mt-5">
-
-<h1>Index Principal(siempre se va mostrar)</h1>
-
-</div>
-
-
-
-<div class="container">este es un menu</div>

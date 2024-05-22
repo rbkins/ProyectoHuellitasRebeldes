@@ -32,8 +32,8 @@
         <?php
         
             //manejo de url del sitio.
-            $contenido = new contenido();
-            require_once($contenido->mostrar_archivo());
+            @$contenido = new contenido();
+            @require_once($contenido->mostrar_archivo());
         
         ?>
 
@@ -55,11 +55,3 @@
         ></script>
     </body>
 </html>
-
-
-
-<div class="container mt-5">
-
-<h1>Index Administrador</h1>
-
-</div>
